@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fefcf2467.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWATRE DEVELOPER</p>
+            <h1>Hi, I'm <span>MUGDHA</span><br>From SUST</h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>I am deeply passionate about continuously expanding my knowledge of core and fundamental concepts. With an insatiable curiosity, I delve into various domains, seeking a deeper understanding of their underlying principles. I am driven by the desire to utilize this knowledge to design and write efficient code that not only functions flawlessly but also optimizes performance. Challenges invigorate me, and I eagerly embrace them, using my problem-solving skills to address real-world issues. With every obstacle encountered, I persistently seek innovative solutions, driven by the belief that my contributions can make a positive impact on society. This unwavering dedication propels me forward on a journey of intellectual growth and creative problem-solving.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">ECA</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web development</li>
+                        <li><span>App Development</span><br>Building Android apps</li>
+                        <li><span>Graphics Design</span><br>Designing digital arts</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br>Publication Secretary at SWE Society</li>
+                        <li><span>2020 - current</span><br>Publicity and Visual Arts Secretary at CAM-SUST</li>
+                        <li><span>2017 - 2019</span><br>GM at Notre Dame Math Club</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>5th semester, SWE, SUST</li>
+                        <li><span>2019</span><br>HSC from Notre Dame College</li>
+                        <li><span>2017</span><br>SSC from The Flowers' K.G & High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+         <h1 class="sub-title">my Services</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>From sleek and modern designs to user-friendly interfaces, I strive to create visually appealing websites that deliver an exceptional user experience. Explore my portfolio to witness my passion for innovative web design.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphics Design</h2>
+                <p>From captivating logos and branding materials to visually stunning illustrations and layouts, my portfolio showcases my passion for creating visually impactful designs that leave a lasting impression.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p>From wireframes to pixel-perfect interfaces, I specialize in crafting visually appealing designs that enhance user experience and bring innovative ideas to life. Explore my portfolio to witness my passion for app design.</p>
+                <a href="#">Learn more</a>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!-- -------------porfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>PRICE COMPARING APP</h3>
+                    <p>With a vast database of products, it effortlessly compares prices across multiple retailers, ensuring you never miss a great deal. Save time and money by making informed purchasing decisions right at your fingertips.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>PACMAN GAME</h3>
+                    <p>Embark on a nostalgic gaming adventure with our Pacman game! Navigate through mazes, gobbling up pellets and avoiding colorful ghosts. Collect power-ups to turn the tables and become the hunter. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>AR BASED APP</h3>
+                    <p>Immerse yourself in interactive 3D models, virtual simulations, and engaging educational content. Explore complex concepts with lifelike visuals, making learning captivating and memorable. Unlock the power of augmented reality for an extraordinary educational experience.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- -------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mugdhasamiul@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+8801962353752</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/MugdhaSamiul"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>copyright ©️ Mugdha. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyvlwW3YeaXPDJK1Gym1SqqjMtZ6dUntlB6nnyyWF8mRfp4x5zawkHAyges1T61BK7d/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
